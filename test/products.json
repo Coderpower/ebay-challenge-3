@@ -1,0 +1,117 @@
+[
+  {
+    "categories": [
+      "fashion"
+    ],
+    "price": 170.99,
+    "discount": 0,
+    "name": "Bradley Bag",
+    "_id": "575fdb7fd848ed0f63ebbaf4"
+  },
+  {
+    "categories": [
+      "electronics",
+      "home"
+    ],
+    "price": 2299.99,
+    "discount": 0.1,
+    "name": "TV Electronics 65EG 4K UHD SMART Curved",
+    "_id": "575fdb7f6a6630682616bf82"
+  },
+  {
+    "categories": [
+      "electronics",
+      "home",
+      "music"
+    ],
+    "price": 399.99,
+    "discount": 0.2,
+    "name": "HW-J550 2.1 Channel 320 Watt Wireless Audio",
+    "_id": "575fdb7fc33f3e6505479ec8"
+  },
+  {
+    "categories": [
+      "sport",
+      "fashion"
+    ],
+    "price": 39.99,
+    "discount": 0,
+    "name": "ClimaCool Engineered T-Shirt",
+    "_id": "575fdb7f0e8152b40b1f0e67"
+  },
+  {
+    "categories": [
+      "sport",
+      "fashion"
+    ],
+    "price": 79.99,
+    "discount": 0.3,
+    "name": "FootJoy Shoes",
+    "_id": "575fdb7f5d7b6bbe45ca84cb"
+  },
+  {
+    "categories": [
+      "sport",
+      "electronics",
+    ],
+    "price": 399.99,
+    "discount": 0.7,
+    "name": "Fit Flex Watch",
+    "_id": "575fdb7f2962a7d577a6d06d"
+  },
+  {
+    "categories": [
+      "motors",
+      "electronics"
+    ],
+    "price": 39699.00,
+    "discount": 0,
+    "name": "Hybrid car CGK",
+    "_id": "575fdb7faa4e557e8ba3f95a"
+  },
+  {
+    "categories": [
+      "motors"
+    ],
+    "price": 55980.00,
+    "discount": 0,
+    "name": "4x4 LTS CREW DIESEL",
+    "_id": "575fdb7fe197def6abd38a14"
+  },
+  {
+    "categories": [
+      "toys"
+    ],
+    "price": 9.99,
+    "discount": 0.2,
+    "name": "Captain America Figure By Ostro",
+    "_id": "575fdb7ffb2b63ab9549601e"
+  },
+  {
+    "categories": [
+      "toys"
+    ],
+    "price": 11.99,
+    "discount": 0.2,
+    "name": "Daryl Dixon Figure By Arnold",
+    "_id": "575fdb7f1a294b68963a2aa1"
+  },
+  {
+    "categories": [
+      "art"
+    ],
+    "price": 15,
+    "discount": 0,
+    "name": "Vintage Antique Cast Iron Curtain",
+    "_id": "575fdb7f2082640b0256e704"
+  },
+  {
+    "categories": [
+      "music"
+    ],
+    "price": 699.99,
+    "discount": 0,
+    "name": "Gibson Les Paul Standard",
+    "_id": "575fdb7f625ab938a53d727c"
+  }
+]
