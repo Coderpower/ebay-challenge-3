@@ -1,0 +1,51 @@
+[
+    {
+        "id": "464fdb7f2962a7d577a6d17e",
+        "username": "Edward",
+        "budget": 1500,
+        "interests": [
+            {
+                "name": "electronics",
+                "weight": 5
+            },
+            {
+                "name": "music",
+                "weight": 3
+            }
+        ]
+    },
+    {
+        "id": "464fdb7f625ab938a53d838d",
+        "username": "Adeline",
+        "budget": 11000,
+        "interests": [
+            {
+                "name": "fashion",
+                "weight": 4
+            },
+            {
+                "name": "music",
+                "weight": 4
+            },
+            {
+                "name": "art",
+                "weight": 2
+            }
+        ]
+    },
+    {
+        "id": "464fdb7f625ab938a53d838d",
+        "username": "Jack",
+        "budget": 900,
+        "interests": [
+            {
+                "name": "motors",
+                "weight": 5
+            },
+            {
+                "name": "home",
+                "weight": 4
+            }
+        ]
+    }
+]
