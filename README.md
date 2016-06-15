@@ -1,75 +1,1 @@
-People are going on eBay with a certain budget and multiple interests. Since there are a lot of products available, people have to choose but they would like to know which product would be the best fitting their interests.They have the possibility to fill out their interests and order them by preferences.
-Objective: Build propositions that are matching their interests, respecting the order.
-
-
-Person
-{
-    "id": "string",
-    "firstName": "string",
-    "lastName": "string",
-    "interests": [{
-        "id": "string"
-        "weight": number
-    }]
-    "budget": number
-}
-
-
-Product
-{
-    "id": "string"
-    "name": "string"
-    "price": Number
-    "categories": ["id"]
-    "discount": "number"
-}
-
-// user
-{
-    "id":"abcdef",
-    "firstName": "Julien",
-    "lastname": "Sarazin",
-    interests: [
-    {
-        "id": "id_1",
-        "weight": 30
-    },
-    {
-        "id": "id_2",
-        "weight": 10
-    },
-    {
-        "id": "id_3",
-        "weight": 50
-    }]
-}
-
-// Product
-{
-   "id" : "id_1",
-   "name": "Nerf Probounce",
-   "categories": ["id_4"]
-}
-
-
-// Categories
-{
-    "id": "id_1",
-    "name": "Motors"
-},
-{
-    "id": "id_2",
-    "name": "Fashion",
-},
-{
-    "id": "id_3",
-    "name": "Sports"
-},
-{
-    "id": "id_4",
-    "name": "Toys"
-},
-{
-    "id": "id_5",
-    "name": "Music"
-}
+## The right offersPeople are going on eBay with a defined budget. Since there are a lot of products available, people have to choose but they would like to know which product would fit the best their interests.They have the possibility to fill out their interests and sort them by importance.> **Objective**> Build offers that are matching people interests, respecting their interests and budgets. You must return an array of offers, sorted by the most interesting to the less interesting. If offers have the same level of interest then sort them by price.#### Help```javascript// a client{    "id": String,    "username": String,    "interests": [{        "name": String        "weight": Number // from 1 to 5    }]    "budget": Number // always > 0}``````javascript// a product{    "categories": [String],    "price": Number,    "discount": Number, // from 0 to 1, 0 = 0%, 1 = 100%    "name": String,    "id": String}``````javascript// an offer{    "productId": [String],    "price": Number, // product price with an applied discount}```
