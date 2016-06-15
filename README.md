@@ -1,4 +1,4 @@
-### The right offers
+## The right offers
 
 People visit eBay with a certain budget in mind. Since there are a myriad of items to choose from, visitors need to know which product(s) best fit their interests and budget to ensure they make the right purchase.
 
