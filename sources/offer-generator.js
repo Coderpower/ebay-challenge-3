@@ -1,3 +1,3 @@
-module.exports = function(client, products){
+module.exports = function(visitor, products){
     return [];
 };
