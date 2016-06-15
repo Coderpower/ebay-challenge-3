@@ -35,7 +35,7 @@ People are going on eBay with a defined budget. Since there are a lot of product
 // an offer
 {
     "productId": String,
-    "price": Number, // product price with the applied discount is exists.
+    "price": Number, // product price with the applied discount if any.
     "relevance": Number // calculated from the interests of the client and the product categories.
 }
 ```
