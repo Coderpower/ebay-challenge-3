@@ -9,7 +9,7 @@ People visit eBay with a certain budget in mind. Since there are a myriad of ite
 #### Help
 
 ```javascript
-// a client
+// a visitor
 {
     "id": String,
     "username": String,
@@ -37,6 +37,6 @@ People visit eBay with a certain budget in mind. Since there are a myriad of ite
 {
     "productId": String,
     "price": Number, // product price with the applied discount if any.
-    "relevance": Number // calculated from the interests of the client and the product categories.
+    "relevance": Number // processed from the interests of the visitor and the product categories.
 }
 ```
